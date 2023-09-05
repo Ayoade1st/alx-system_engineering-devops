@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -na /boot
+find ./ -type d -exec chmod a+x {} \;
