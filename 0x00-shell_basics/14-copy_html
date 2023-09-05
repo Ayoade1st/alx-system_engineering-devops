@@ -1,2 +1,2 @@
 #!/bin/bash
-lcp -n *.html ..
+cp -n *.html ..
