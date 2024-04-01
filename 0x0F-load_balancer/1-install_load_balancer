@@ -34,14 +34,14 @@ defaults
   timeout server 15s
   timeout http-request 10s
 
-frontend clickviral-tech-frontend
+frontend ayoadeolufisayo-tech-frontend
     bind *:80
-    default_backend clickviral-tech-backend
+    default_backend ayoadeolufisayo-tech-backend
 
-backend clickviral-tech-backend
+backend ayoadeolufisayo-tech-backend
     balance roundrobin
-    server 151666-web-01 100.25.190.21:80 check
-    server 151666-web-02 54.160.77.90:80 check
+    server 523541-web-01 107.23.84.186:80 check
+    server 523541-web-02 34.227.101.100:80 check
 "
 
 # shellcheck disable=SC2154
