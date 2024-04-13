@@ -41,7 +41,7 @@ frontend ayoadeolufisayo-frontend
         default_backend ayoadeolufisayo-backend
 
 frontend ayoadeolufisayo-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/ayoadeolufisayo.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.ayoadeolufisayo.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend ayoadeolufisayo-backend
 
